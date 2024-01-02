@@ -42,6 +42,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by:m.aswini 
 RegisterNumber:212223220010
 HALF SUBTRACTOR:
+
 module halfsub(a,c,b,d);
 input a,c;
 output d,b;

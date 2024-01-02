@@ -46,13 +46,21 @@ RegisterNumber:212223220010
 HALF SUBTRACTOR:
 
 module halfsub(a,c,b,d);
+
 input a,c;
+
 output d,b;
+
 wire e;
+
 xor(d,a,c);
+
 not(e,a);
+
 and(b,e,c);
+
 endmodule
+
 
 FULL SUBTRACTOR:
 

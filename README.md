@@ -65,17 +65,29 @@ endmodule
 FULL SUBTRACTOR:
 
 module fullsub(A,B,Bin,D,Bout);
+
 input A,B,Bin;
+
 output D,Bout;
+
 wire C,E,F,G,H;
+
 xor(C,A,B);
+
 xor(D,C,Bin);
+
 not(H,C);
+
 not(E,A);
+
 and(G,H,Bin);
-and(F,E,B)
+
+and(F,E,B);
+
 or(Bout,G,F);
+
 endmodule
+
 ## Output:
 
 ## Truthtable:
